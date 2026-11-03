@@ -1,0 +1,120 @@
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(120deg, #faf5ff, #fdf2f8);
+  font-family: "Inter", sans-serif;
+}
+
+/* LEFT */
+.login-left {
+  flex: 1;
+  padding: 80px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #a855f7;
+}
+
+.login-left h1 {
+  font-size: 44px;
+  margin: 30px 0;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* RIGHT */
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 420px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.login-card h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.card-subtitle {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.form-options {
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #9333ea, #ec4899);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-text a {
+  color: #9333ea;
+  font-weight: 600;
+}
+
+.demo-box {
+  margin-top: 25px;
+  padding: 12px;
+  text-align: center;
+  background: #f3e8ff;
+  border-radius: 12px;
+  font-size: 14px;
+}

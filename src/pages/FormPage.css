@@ -1,0 +1,60 @@
+/* Container Layouts */
+.form-viewport {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1600');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex; justify-content: center; align-items: center;
+  padding: 20px; font-family: 'Inter', sans-serif;
+}
+
+.form-card-container {
+  display: flex; width: 1000px; background: #fff;
+  min-height: 650px; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+}
+
+/* Sidebar & Steps */
+.form-sidebar { width: 320px; background: #f1f6f5; padding: 45px; border-right: 1px solid #e0e6e5; }
+.brand-logo { color: #007367; font-weight: bold; font-size: 24px; margin-bottom: 40px; }
+.step-row { position: relative; display: flex; align-items: center; margin-bottom: 40px; color: #a0b0af; }
+.step-row.active { color: #333; }
+.step-circle { width: 34px; height: 34px; border-radius: 50%; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; margin-right: 15px; background: #fff; z-index: 2; }
+.active .step-circle { border-color: #007367; color: #007367; }
+.step-connector { position: absolute; left: 17px; top: 34px; width: 1px; height: 40px; background: #ccc; }
+.active .step-connector { background: #007367; }
+
+/* Form Body */
+.form-body-area { flex: 1; padding: 60px; display: flex; flex-direction: column; }
+.group-label { font-size: 11px; font-weight: bold; color: #6d817f; margin-bottom: 25px; display: block; }
+.person-badge { background: #e6f2f1; color: #007367; padding: 5px 12px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-bottom: 15px; display: inline-block; }
+
+/* Inputs */
+.input-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.input-field { margin-bottom: 20px; }
+.input-field label { display: block; font-size: 13px; color: #007367; margin-bottom: 8px; font-weight: 500; }
+.input-field input, .input-field select, textarea { width: 100%; padding: 12px; border: 1px solid #dce5e3; border-radius: 4px; background: #fdfdfd; font-family: inherit; }
+textarea { resize: none; height: 80px; }
+
+/* Summary Step */
+.summary-scroll-container { max-height: 400px; overflow-y: auto; padding-right: 8px; }
+.trip-summary-banner { background: #007367; color: #fff; padding: 12px; border-radius: 6px; text-align: center; margin-bottom: 20px; font-weight: bold; }
+.multi-person-card { background: #f8faf9; border-left: 5px solid #007367; padding: 15px; border-radius: 4px; margin-bottom: 12px; }
+.multi-person-card h5 { margin: 0; font-size: 15px; color: #007367; }
+.multi-person-card p { margin: 5px 0; font-weight: 600; font-size: 14px; }
+.card-subtext { font-size: 12px; color: #666; }
+
+/* Result Page */
+.result-screen { text-align: center; padding-top: 20px; }
+.completion-icon { width: 70px; height: 70px; background: #007367; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; margin: 0 auto 20px; }
+.result-button-group { margin-top: 30px; display: flex; flex-direction: column; gap: 12px; align-items: center; }
+.btn-result-primary { background: #007367; color: #fff; border: none; padding: 15px 60px; border-radius: 30px; cursor: pointer; font-weight: bold; width: 100%; max-width: 320px; }
+.btn-result-secondary { background: #fff; color: #007367; border: 2px solid #007367; padding: 13px 60px; border-radius: 30px; cursor: pointer; font-weight: bold; width: 100%; max-width: 320px; }
+
+/* Navigation Footer */
+.form-footer { margin-top: auto; display: flex; justify-content: space-between; padding-top: 20px; }
+.btn-back-red { background: none; border: none; color: #e63946; text-decoration: underline; font-weight: bold; cursor: pointer; }
+.btn-next { background: #007367; color: #fff; border: none; padding: 12px 40px; border-radius: 25px; font-weight: bold; cursor: pointer; }
+
+/* Animation */
+.fade-in { animation: fadeIn 0.4s ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }

@@ -1,0 +1,150 @@
+/* Reset and Base */
+.about-page {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.about-hero {
+  height: 40vh;
+  background: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600') center/cover no-repeat;
+  position: relative;
+  filter: grayscale(100%);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay h1 {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 10px;
+}
+
+/* Trust Section */
+.trust-container {
+  padding: 80px 10%;
+  background: #fff;
+}
+
+.trust-content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.trust-text { flex: 1; }
+.trust-text h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.trust-badges {
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: flex;
+  gap: 20px;
+}
+
+.trust-image { flex: 1; }
+.trust-image img {
+  width: 100%;
+  border-radius: 4px;
+  filter: grayscale(100%);
+}
+
+/* Feature Row */
+.features-row {
+  display: flex;
+  background: #000; /* Black background for high contrast */
+  color: #fff;
+}
+
+.feature-item {
+  flex: 1;
+  padding: 60px 40px;
+  text-align: center;
+  border-right: 1px solid #333;
+}
+
+.feature-item.active {
+  background: #111; /* Slightly different shade for active */
+}
+
+.feature-item .icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* News Gallery */
+.news-gallery {
+  padding: 80px 10%;
+  background: #fafafa;
+}
+
+.news-gallery h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.gallery-card {
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.card-info {
+  padding: 20px;
+}
+
+/* Footer */
+.about-footer {
+  background: #000;
+  color: #fff;
+  padding: 60px 10% 20px;
+  text-align: center;
+}
+
+.footer-top {
+  border-bottom: 1px solid #222;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.logo-brand {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  font-size: 0.8rem;
+  color: #666;
+}

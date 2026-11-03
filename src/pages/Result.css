@@ -1,0 +1,96 @@
+.result-wrapper {
+  padding: 25px;
+  background: #f6f7fb;
+  font-family: "Inter", sans-serif;
+  color: #111827;
+}
+
+/* HEADER */
+.result-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #3b82f6, #f97316);
+  color: white;
+}
+
+.result-hero h1 {
+  font-size: 28px;
+}
+
+.result-hero p {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+/* BUTTON */
+.back-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #111;
+  cursor: pointer;
+}
+
+/* DAY CARD */
+.day-card {
+  background: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+.day-header {
+  padding: 18px;
+  background: linear-gradient(90deg, #3b82f6, #f97316);
+  color: white;
+}
+
+.day-header h2 {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* TIMELINE */
+.timeline {
+  padding: 15px;
+}
+
+.timeline-item {
+  background: #f1f5f9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #111;
+}
+
+/* BOTTOM */
+.day-bottom {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+}
+
+.info-card {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #111;
+}
+
+.info-card h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* COLORS */
+.food { background: #fef3c7; }
+.wear { background: #e0e7ff; }
+.caption { background: #fce7f3; }
